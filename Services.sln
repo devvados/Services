@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialService", "Factori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialService.Models", "FactorialService.Models\FactorialService.Models.csproj", "{B63820A2-A608-48C7-934D-23A329BC21D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{1A0A24A2-43D5-4C7D-8A6C-3083B26DA1CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{243932FB-12E8-4E1D-9FC8-E752844A3DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingService.Models", "LoggingService.Models\LoggingService.Models.csproj", "{B708BD08-A560-438C-9299-9E1304CE09F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingService", "LoggingService\LoggingService.csproj", "{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,19 @@ Global
 		{B63820A2-A608-48C7-934D-23A329BC21D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63820A2-A608-48C7-934D-23A329BC21D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63820A2-A608-48C7-934D-23A329BC21D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B708BD08-A560-438C-9299-9E1304CE09F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B708BD08-A560-438C-9299-9E1304CE09F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B708BD08-A560-438C-9299-9E1304CE09F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B708BD08-A560-438C-9299-9E1304CE09F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16CAF7B7-3D5E-4D60-AFA0-39A69A7A43CF} = {243932FB-12E8-4E1D-9FC8-E752844A3DF1}
+		{B63820A2-A608-48C7-934D-23A329BC21D7} = {243932FB-12E8-4E1D-9FC8-E752844A3DF1}
+		{B708BD08-A560-438C-9299-9E1304CE09F3} = {1A0A24A2-43D5-4C7D-8A6C-3083B26DA1CB}
+		{BCEC4E32-A3E0-4109-AD5F-CDC09E7F8966} = {1A0A24A2-43D5-4C7D-8A6C-3083B26DA1CB}
 	EndGlobalSection
 EndGlobal
